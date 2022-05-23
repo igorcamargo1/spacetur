@@ -4,7 +4,7 @@ Mini projeto sobre turismo espacial
 Regras:
 
 
-•O CP3será realizado off-line, para entrega.
+•O CP3 será realizado off-line, para entrega.
 •A avaliação será realizada em grupo( obrigatório o grupo do challenger).
 •Todos os integrantes devem contribuir.
 •Não é permitido utilizar frameworks(frameworkssão qualquer biblioteca adicionada ao projeto que agregue algum tipo de característica já pronta)
