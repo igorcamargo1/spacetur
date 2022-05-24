@@ -19,13 +19,19 @@ a{
     font-size: 12px;
 }
 
+li > a:hover{
+    background-color: #D1D1D1;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+
+
 p{
     font-size: 20px;
 }
 
-a::hover{
-    text-decoration: underline;
-}
 
 img{
     max-width: 100%;
@@ -54,6 +60,7 @@ img{
     margin-left: 24px;
     margin-top: 12px;
     list-style: none;
+    margin-right: 10px;
 }
 
 .menu > ul > li > a{
@@ -69,6 +76,7 @@ img{
 
 .box{
     width: 42.5%;
+    height: 42.5%;
     padding: 30px 48px;
     position: absolute;
     top: 48px;
