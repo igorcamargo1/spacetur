@@ -1,4 +1,4 @@
-# spacetur
+# spacetour
 Mini projeto sobre turismo espacial
 
 Regras:
