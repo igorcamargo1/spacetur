@@ -111,23 +111,30 @@ fieldset > div{
     margin-left: 10%;
 }
 
+fieldset > div > label{
+    font-size: 20px;
+}
+
 fieldset > div > input{
     width: 80%;
-    height: 25px;
+    height: 35px;
     border-radius: 5px;
     align-items: center;
     border: 2px solid #406882;
     box-shadow: 5px 5px 5px #B1D0E0;
+    font-size: 18px;
 }
 
 #generoId{
     width: 80%;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     align-items: center;
     border: 2px solid #406882;
     box-shadow: 5px 5px 5px #B1D0E0;
+    font-size: 18px;
 }
+
 
 .motivo{
     width: 70%;
@@ -136,6 +143,7 @@ fieldset > div > input{
 
 #motivoId{
     resize: none;
+    font-size: 18px;
 }
 
 .motivo > textarea{
