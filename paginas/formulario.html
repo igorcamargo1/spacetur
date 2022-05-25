@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Contato</h1>
+        <p>Registre o formulário para ser cadastrado.</p>
+    </div>
+    <main>
+        <form class="formulario">
+            <fieldset>
+                <div>
+                    <label for="nmId">
+                        Nome
+                    </label>
+                    <input type="text" id="nmId">
+                </div>
+                <div>
+                    <label for="sobrenomeId">Sobrenome</label>
+                    <input type="text" id="sobrenomeId">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="emailId">Email</label>
+                    <input type="email" id="emailId">
+                </div>
+                <div>
+                    <label for="cpfId">CPF</label>
+                    <input type="text">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="generoId">Gênero</label>
+                    <select name="" id="generoId">
+                        <option value="" disabled>Selecione</option>
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                        <option value="o">Outros</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="dataId">Data de nascimento</label>
+                    <input type="date">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="motivo">
+                    <label for="motivoId">Qual a sua motivação para a viagem?</label>
+                    <textarea id="motivoId"></textarea>
+                </div>
+            </fieldset>
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
