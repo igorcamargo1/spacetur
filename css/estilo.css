@@ -12,7 +12,7 @@ body{
 .container{
     max-width: 1128px;
 }
-
+/*nav-bar (fim)---------------------------------*/
 a{
     color: #00ccff;
     text-decoration: none;
@@ -68,6 +68,14 @@ img{
     font-size: 20px;
     color: #999;
 }
+
+.active{
+    background-color: #777777;
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*nav-bar (fim)---------------------------------*/
 
 .banner{
     height: 450px;

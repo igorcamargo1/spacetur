@@ -10,6 +10,19 @@
 </head>
 
 <body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="../img/logo-spacetours.png" alt="logo Spacetour" />
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a class="active" href="./paginas/formulario.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
     <div class="title">
         <h1>Contato</h1>
         <p>Registre o formulário para ser cadastrado.</p>
@@ -42,7 +55,7 @@
                 <div>
                     <label for="generoId">Gênero</label>
                     <select name="" id="generoId">
-                        <option value="" disabled>Selecione</option>
+                        <option selected disabled value="" >Selecione</option>
                         <option value="m">Masculino</option>
                         <option value="f">Feminino</option>
                         <option value="o">Outros</option>
@@ -60,8 +73,8 @@
                 </div>
             </fieldset>
             <div class="botoes">
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
+                <button type="submit" class="enviar">Enviar</button>
+                <button type="reset" class="limpar">Limpar</button>
             </div>
         </form>
     </main>
