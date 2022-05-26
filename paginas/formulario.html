@@ -11,74 +11,76 @@
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="logo">
-            <img src="../img/logo-spacetours.png" alt="logo Spacetour" />
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#pacotes">Pacotes</a></li>
-                <li><a class="active" href="./paginas/formulario.html">Contato</a></li>
-            </ul>
-        </div>
-    </header>
-    <div class="title">
-        <h1>Contato</h1>
-        <p>Registre o formulário para ser cadastrado.</p>
-    </div>
-    <main>
-        <form class="formulario" action="../index.html"  method="get">
-            <fieldset>
-                <div>
-                    <label for="nmId">
-                        Nome
-                    </label>
-                    <input type="text" id="nmId">
-                </div>
-                <div>
-                    <label for="sobrenomeId">Sobrenome</label>
-                    <input type="text" id="sobrenomeId">
-                </div>
-            </fieldset>
-            <fieldset>
-                <div>
-                    <label for="emailId">Email</label>
-                    <input type="email" id="emailId">
-                </div>
-                <div>
-                    <label for="cpfId">CPF</label>
-                    <input type="text" id="cpfId">
-                </div>
-            </fieldset>
-            <fieldset>
-                <div>
-                    <label for="generoId">Gênero</label>
-                    <select name="" id="generoId">
-                        <option selected disabled value="" >Selecione</option>
-                        <option value="m">Masculino</option>
-                        <option value="f">Feminino</option>
-                        <option value="o">Outros</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="dateId">Data de nascimento</label>
-                    <input type="date" id="dateId">
-                </div>
-            </fieldset>
-            <fieldset>
-                <div class="motivo">
-                    <label for="motivoId">Qual seria a sua motivação para a viagem?</label>
-                    <textarea id="motivoId"></textarea>
-                </div>
-            </fieldset>
-            <div class="botoes">
-                <button type="submit" class="enviar" id="enviar" onclick="validar()">Enviar</button>
-                <button type="reset" class="limpar">Limpar</button>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="logo">
+                <img src="../img/logo-spacetours.png" alt="logo Spacetour" />
             </div>
-        </form>
-    </main>
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#pacotes">Pacotes</a></li>
+                    <li><a class="active" href="./paginas/formulario.html">Contato</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="title">
+            <h1>Contato</h1>
+            <p>Registre o formulário para ser cadastrado.</p>
+        </div>
+        <main>
+            <form class="formulario" action="../index.html" method="get">
+                <fieldset>
+                    <div>
+                        <label for="nmId">
+                            Nome
+                        </label>
+                        <input type="text" id="nmId">
+                    </div>
+                    <div>
+                        <label for="sobrenomeId">Sobrenome</label>
+                        <input type="text" id="sobrenomeId">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <label for="emailId">Email</label>
+                        <input type="email" id="emailId">
+                    </div>
+                    <div>
+                        <label for="cpfId">CPF</label>
+                        <input type="text" id="cpfId">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <label for="generoId">Gênero</label>
+                        <select name="" id="generoId">
+                            <option selected disabled value="">Selecione</option>
+                            <option value="m">Masculino</option>
+                            <option value="f">Feminino</option>
+                            <option value="o">Outros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="dateId">Data de nascimento</label>
+                        <input type="date" id="dateId">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="motivo">
+                        <label for="motivoId">Qual seria a sua motivação para a viagem?</label>
+                        <textarea id="motivoId"></textarea>
+                    </div>
+                </fieldset>
+                <div class="botoes">
+                    <button type="submit" class="enviar" id="enviar" onclick="validar()">Enviar</button>
+                    <button type="reset" class="limpar">Limpar</button>
+                </div>
+            </form>
+        </main>
+    </div>
 </body>
 
 </html>

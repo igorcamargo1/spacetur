@@ -34,7 +34,7 @@ function validar(){
   if (cpf.value == "") {
     alert("Senha não informada");
     cpf.focus();
-    return;
+    return false;
   }
   if (genero.value == "") {
     alert("Telefone não informado");
