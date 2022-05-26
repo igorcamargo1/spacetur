@@ -19,37 +19,37 @@ function validar(){
     // Deixa o input com o focus
     nome.focus();
     // retorna a função e não olha as outras linhas
-    return;
+    return false;
   }
   if (sobrenome.value == "") {
     alert("Sobrenome não informado");
     sobrenome.focus();
-    return;
+    return false;
   }
   if (email.value == "") {
     alert("E-mail não informado");
     email.focus();
-    return;
+    return false;
   }
   if (cpf.value == "") {
     alert("Senha não informada");
     cpf.focus();
-    return;
+    return false;
   }
   if (genero.value == "") {
     alert("Telefone não informado");
     genero.focus();
-    return;
+    return false;
   }
   if (data.value == "") {
     alert("CEP não informado");
     data.focus();
-    return;
+    return false;
   }
   if (motivo.value == "") {
     alert("CEP não informado");
     motivo.focus();
-    return;
+    return false;
   }
   alert("Formulário enviado!");
   // envia o formulário
