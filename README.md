@@ -33,3 +33,4 @@ o Ao ser submetidas as informações, estando tudo okuma mensagem de alerta deve
 
 •O formulário deve ser acessado através de um item de menu chamado [“Contato”].
 •O seu dever é criar a página e chegar em um resultado próximo ou igual ao da imagem abaixo.
+<--------------------------------------------------------------------------------------------->
