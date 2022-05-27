@@ -185,9 +185,23 @@ fieldset > div > input{
     background-color: #6998AB;
     color: #ffffff;
 }
-
+.botoes > input[button]:hover{
+    background-color: #6998AB;
+    color: #ffffff;
+}
 .botoes > .enviar{
     margin-right: 10px;
+}
+
+.enviar{
+    width: 200px;
+    height: 35px;
+    border: 2px solid #406882;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #B1D0E0;
+    color: #01375b
 }
 
 /*form (fim)------------------------------------------*/

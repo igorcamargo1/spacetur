@@ -36,27 +36,27 @@
                         <label for="nmId">
                             Nome
                         </label>
-                        <input type="text" id="nmId">
+                        <input type="text" id="nmId" name="nome">
                     </div>
                     <div>
                         <label for="sobrenomeId">Sobrenome</label>
-                        <input type="text" id="sobrenomeId">
+                        <input type="text" id="sobrenomeId" name="sobrenome">
                     </div>
                 </fieldset>
                 <fieldset>
                     <div>
                         <label for="emailId">Email</label>
-                        <input type="email" id="emailId">
+                        <input type="email" id="emailId" name="email">
                     </div>
                     <div>
                         <label for="cpfId">CPF</label>
-                        <input type="text" id="cpfId">
+                        <input type="text" id="cpfId" name="cpf">
                     </div>
                 </fieldset>
                 <fieldset>
                     <div>
                         <label for="generoId">Gênero</label>
-                        <select name="" id="generoId">
+                        <select name="" id="generoId" name="opção de gênero">
                             <option selected disabled value="">Selecione</option>
                             <option value="m">Masculino</option>
                             <option value="f">Feminino</option>
@@ -65,17 +65,18 @@
                     </div>
                     <div>
                         <label for="dateId">Data de nascimento</label>
-                        <input type="date" id="dateId">
+                        <input type="date" id="dateId" name="data">
                     </div>
                 </fieldset>
                 <fieldset>
                     <div class="motivo">
                         <label for="motivoId">Qual seria a sua motivação para a viagem?</label>
-                        <textarea id="motivoId"></textarea>
+                        <textarea id="motivoId" name="texto"></textarea>
                     </div>
                 </fieldset>
                 <div class="botoes">
-                    <button type="submit" class="enviar" id="enviar" onclick="validar()">Enviar</button>
+                    <input type="button" value="Enviar" class="enviar" id="enviar">
+                   <!--<button type="submit" class="enviar">Enviar</button>-->
                     <button type="reset" class="limpar">Limpar</button>
                 </div>
             </form>
