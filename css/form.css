@@ -204,4 +204,10 @@ fieldset > div > input{
     color: #01375b
 }
 
+.enviar:hover{
+    background-color:#6998AB ;
+    color: #ffffff;
+}
+
+
 /*form (fim)------------------------------------------*/
